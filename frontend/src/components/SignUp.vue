@@ -76,7 +76,7 @@ export default {
   methods: {
     onSignUp() {
       axios
-        .post("http://localhost:8000/user/create", this.newUser)
+        .post(`${import.meta.env.VITE_API_BASE_URL}/user/create`, this.newUser)
         .then(({ data }) => {
           if (data.status) {
             toast.success(data.message);

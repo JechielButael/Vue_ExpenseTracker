@@ -43,7 +43,7 @@ export default {
   methods: {
     onSignIn() {
       axios
-        .post("http://localhost:8000/user/getUser", this.user)
+        .post(`${import.meta.env.VITE_API_BASE_URL}/user/getUser`, this.user)
         .then(({ data }) => {
           if (data.status) {
             toast.success(data.message);

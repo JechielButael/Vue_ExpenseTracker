@@ -196,7 +196,9 @@ export default {
     const getAllIncomes = async () => {
       try {
         const response = await axios.get(
-          `http://localhost:8000/user/getAllUserIncomes/${props.id}`
+          `${import.meta.env.VITE_API_BASE_URL}/user/getAllUserIncomes/${
+            props.id
+          }`
         );
         if (response.status === 200 && Array.isArray(response.data.incomes)) {
           state.allTransitions = response.data.incomes.map((income) => ({
@@ -248,7 +250,7 @@ export default {
           toast.error("One or more details are empty!");
         } else {
           const response = await axios.post(
-            `http://localhost:8000/user/addIncome/${props.id}`,
+            `${import.meta.env.VITE_API_BASE_URL}/user/addIncome/${props.id}`,
             newIncome
           );
 
@@ -273,7 +275,7 @@ export default {
 
     const removeItem = async (id) => {
       const response = await axios.post(
-        "http://localhost:8000/user/deleteIncome/" + props.id,
+        `${import.meta.env.VITE_API_BASE_URL}/user/deleteIncome/` + props.id,
         { incomeId: id }
       );
       toast.success("Item deleted successfully!");
