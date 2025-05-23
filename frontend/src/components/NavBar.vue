@@ -2,10 +2,7 @@
   <nav className="app__navbar">
     <router-link to="/" class="logo-container">
       <div className="app__navbar-logo">
-        <img
-          src="C:\Users\Yehiel\vue-live-chat\frontend\src\assets\app-icon.png"
-          alt="app-icon"
-        />
+        <img src="../assets/app-icon.png" alt="app-icon" />
       </div>
       <div class="app-name">Monify</div>
     </router-link>
@@ -214,5 +211,4 @@ export default {
     gap: 0.5rem;
   }
 }
-
 </style>
