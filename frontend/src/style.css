@@ -194,7 +194,7 @@ body {
     font-size: 36px;
   }
   .form-card {
-    width: 50%;
+    max-width: 500px;
   }
   .auth-img {
     width: 50%;
@@ -210,7 +210,7 @@ body {
     width: 60%;
   }
   .auth-img {
-    width: 60%;
+    width: 40%;
     margin-top: 1rem;
   }
   .auth-img img {

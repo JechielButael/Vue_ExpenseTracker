@@ -25,14 +25,14 @@ export default {
 <style lang="scss">
 .form-home-title {
   width: 100%;
-  font-size: 2rem;
+  font-size: 2.5rem;
   font-weight: 800;
   letter-spacing: 0.5px;
   padding-bottom: 24px;
   color: #fab732;
 
   @media screen and (min-width: 1024px) {
-    font-size: 4rem;
+    font-size: 3.5rem;
   }
   @media screen and (min-width: 1440px) {
     font-size: 5rem;
