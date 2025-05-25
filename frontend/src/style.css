@@ -157,13 +157,14 @@ body {
 
   .auth-input {
     border-radius: 1rem;
-    padding: 2rem 1.5rem 1rem 1rem;
+    padding: 2.5rem 2.5rem 2rem 2rem;
+    font-size: 1.3rem;
 
-    margin-bottom: 1.2rem;
+    margin-bottom: 1.5rem;
   }
   .auth-button {
     font-size: 1.2rem;
-    height: 4rem;
+    height: 6rem;
   }
   .form-sign button {
     font-size: 2.5rem;
