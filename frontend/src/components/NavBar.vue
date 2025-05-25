@@ -34,21 +34,21 @@ export default {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 0.5rem 0;
 
-  padding: 0 1rem;
+  padding: 0 2rem;
   position: fixed;
   z-index: 2;
 
-  @media screen and (min-width: 300px) {
-    padding: 1rem;
+  @media screen and (min-width: 2000px) {
+    padding: 1rem 3rem;
   }
-  @media screen and (min-width: 1024px) {
+
+  @media screen and (max-width: 1024px) {
     padding: 1rem 2rem;
   }
 
-  @media screen and (min-width: 2000px) {
-    padding: 1rem 4rem;
+  @media screen and (max-width: 769px) {
+    padding: 1rem;
   }
 }
 
@@ -79,9 +79,9 @@ export default {
   }
 
   @media screen and (min-width: 2000px) {
-    font-size: 3rem;
-    margin: 2rem 0;
-    padding: 2rem;
+    font-size: 2.8rem;
+    margin: 1.8rem 0;
+    padding: 1.5rem;
   }
 }
 
@@ -95,8 +95,8 @@ export default {
     height: 70px;
 
     @media screen and (min-width: 2000px) {
-      width: 120px;
-      height: 120px;
+      width: 100px;
+      height: 100px;
     }
 
     @media screen and (max-width: 480px) {
@@ -111,12 +111,13 @@ export default {
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  margin-right: 8rem;
+  //margin-right: 8rem;
+  gap: 1rem;
 
   list-style: none;
 
   li {
-    margin: 0 1rem;
+    margin: 2rem 0.5rem;
     cursor: pointer;
     background-color: rgb(35, 41, 58);
     border-radius: 40px;
@@ -147,28 +148,29 @@ export default {
     &:hover {
       background-color: rgb(50, 58, 82);
     }
-    @media screen and (max-width: 768px) {
-      margin: 0.5rem 0;
-      font-size: 10px;
-      padding: 5px 12px;
-    }
 
-    @media screen and (min-width: 1024px) {
-      margin: 0.5rem 0;
-      font-size: 1rem;
-      padding: 0.7rem 1rem;
-    }
-
-    @media screen and (min-width: 1440px) {
+    @media screen and (max-width: 1440px) {
       margin: 0.5rem 0;
       font-size: 1.3rem;
       padding: 1.2rem 1.5rem;
     }
 
+    @media screen and (max-width: 1024px) {
+      margin: 0.5rem 0;
+      font-size: 1rem;
+      padding: 0.7rem 1rem;
+    }
+
+    @media screen and (max-width: 769px) {
+      margin: 0.5rem 0;
+      font-size: 10px;
+      padding: 5px 12px;
+    }
+
     @media screen and (min-width: 2000px) {
       margin: 0.5rem 0;
-      font-size: 2rem;
-      padding: 2rem 2.5rem;
+      font-size: 1.7rem;
+      padding: 1.8rem 2rem;
     }
   }
 
@@ -193,7 +195,7 @@ export default {
     line-height: 2rem;
     margin-right: 0;
     margin-top: 0.5rem;
-    gap: 3rem;
+    gap: 2.5rem;
   }
 
   @media screen and (max-width: 768px) {

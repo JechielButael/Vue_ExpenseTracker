@@ -94,13 +94,13 @@ p {
 
 @media (min-width: 2000px) {
   h1 {
-    font-size: 5.5rem;
+    font-size: 5rem;
   }
   h2 {
-    font-size: 3.5rem;
+    font-size: 3rem;
   }
   p {
-    font-size: 2.7rem;
+    font-size: 2.5rem;
   }
 }
 </style>

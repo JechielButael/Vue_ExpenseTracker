@@ -23,39 +23,50 @@ export default {
 </script>
 
 <style lang="scss">
+.form-card {
+  margin: 1rem;
+}
 .form-home-title {
   width: 100%;
-  font-size: 2.5rem;
+  font-size: 3rem;
   font-weight: 800;
   letter-spacing: 0.5px;
   padding-bottom: 24px;
   color: #fab732;
 
-  @media screen and (min-width: 1024px) {
-    font-size: 3.5rem;
-  }
-  @media screen and (min-width: 1440px) {
-    font-size: 5rem;
-  }
   @media screen and (min-width: 2000px) {
     font-size: 7rem;
   }
 
+  @media screen and (max-width: 1440px) {
+    font-size: 5rem;
+  }
+  @media screen and (max-width: 1024px) {
+    font-size: 3.5rem;
+  }
+
+  @media screen and (max-width: 769px) {
+    font-size: 2.5rem;
+  }
 }
 
 .form-subtitle-home {
-  font-size: 1.3rem;
+  font-size: 2rem;
   letter-spacing: 0.5px;
   padding-bottom: 24px;
 
-  @media screen and (min-width: 1024px) {
-    font-size: 2rem;
-  }
-  @media screen and (min-width: 1440px) {
-    font-size: 2.5rem;
-  }
   @media screen and (min-width: 2000px) {
     font-size: 3rem;
+  }
+
+  @media screen and (max-width: 1440px) {
+    font-size: 2.5rem;
+  }
+  @media screen and (max-width: 1024px) {
+    font-size: 2rem;
+  }
+  @media screen and (max-width: 769px) {
+    font-size: 1.3rem;
   }
 }
 </style>

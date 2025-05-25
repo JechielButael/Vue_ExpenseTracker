@@ -77,14 +77,14 @@ export default {
 <style lang="scss">
 .form-signin-title {
   width: 100%;
-  font-size: 42px;
+  font-size: 2rem;
   font-weight: 800;
   letter-spacing: 0.5px;
   color: #e8e8e8;
   padding-bottom: 12px;
 
   @media (min-width: 2000px) {
-    font-size: 6rem;
+    font-size: 5rem;
   }
 }
 </style>

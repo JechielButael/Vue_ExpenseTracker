@@ -66,13 +66,13 @@ export default {
 
 <style lang="scss">
 .footer {
-  width: 70%;
+  width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin: 1rem auto;
-
-  padding: 0 1rem;
+  
+  padding: 0.3rem 2rem;
   position: fixed;
   z-index: 2;
   bottom: 0;
@@ -82,11 +82,13 @@ export default {
   p,
   a {
     font-family: "DM Sans" !important;
+    font-size: 1.2rem;
   }
 
   .footer-socials {
     display: flex;
     flex-direction: row;
+    gap: 2rem;
 
     .social-icon {
       color: white;
@@ -101,6 +103,7 @@ export default {
   .footer-details {
     display: flex;
     flex-direction: row;
+    gap: 1rem;
 
     a {
       transition: color 0.3s ease;
@@ -114,36 +117,36 @@ export default {
   }
 
   @media screen and (min-width: 2000px) {
-    padding: 2rem 2rem;
+    padding: 1.5rem 1.5rem;
   }
 }
 
 @media (min-width: 2000px) {
   .footer {
     width: 100%;
-    padding: 2rem 7rem;
-  }
-  .footer-copyright p {
-    font-size: 2.5rem;
-    margin-bottom: 0.5rem;
-  }
+    padding: 1.8rem 5rem;
 
-  .footer-socials {
-    gap: 4rem;
-    margin-bottom: 0.5rem;
-  }
+    .footer-socials {
+      gap: 3.5rem;
+      margin-bottom: 0.5rem;
+    }
 
-  .footer-socials .social-icon {
-    font-size: 3.5rem;
-  }
+    .footer-socials .social-icon {
+      font-size: 3rem;
+    }
 
-  .footer-details {
-    flex-direction: column;
-    gap: 3rem;
-  }
+    .footer-details {
+      gap: 2.5rem;
+    }
 
-  .footer-details a {
-    font-size: 2.5rem;
+    .footer-copyright p {
+      font-size: 2.2rem;
+      margin-bottom: 0.5rem;
+    }
+
+    .footer-details a {
+      font-size: 2.2rem;
+    }
   }
 }
 
@@ -151,28 +154,28 @@ export default {
   .footer {
     width: 100%;
     padding: 0.5rem 4rem;
-  }
-  .footer-copyright p {
-    font-size: 1.5rem;
-    margin-bottom: 0.5rem;
-  }
 
-  .footer-socials {
-    gap: 2.5rem;
-    margin-bottom: 0.5rem;
-  }
+    .footer-copyright p {
+      font-size: 1.5rem;
+      margin-bottom: 0.5rem;
+    }
 
-  .footer-socials .social-icon {
-    font-size: 2rem;
-  }
+    .footer-socials {
+      gap: 2.5rem;
+      margin-bottom: 0.5rem;
+    }
 
-  .footer-details {
-    flex-direction: column;
-    gap: 2rem;
-  }
+    .footer-socials .social-icon {
+      font-size: 2rem;
+    }
 
-  .footer-details a {
-    font-size: 1.4rem;
+    .footer-details {
+      gap: 2rem;
+    }
+
+    .footer-details a {
+      font-size: 1.4rem;
+    }
   }
 }
 
@@ -180,28 +183,28 @@ export default {
   .footer {
     width: 100%;
     padding: 0.5rem 3rem;
-  }
-  .footer-copyright p {
-    font-size: 1.2rem;
-    margin-bottom: 0.5rem;
-  }
 
-  .footer-socials {
-    gap: 2rem;
-    margin-bottom: 0.5rem;
-  }
+    .footer-copyright p {
+      font-size: 1.2rem;
+      margin-bottom: 0.5rem;
+    }
 
-  .footer-socials .social-icon {
-    font-size: 1.5rem;
-  }
+    .footer-socials {
+      gap: 2rem;
+      margin-bottom: 0.5rem;
+    }
 
-  .footer-details {
-    flex-direction: column;
-    gap: 2rem;
-  }
+    .footer-socials .social-icon {
+      font-size: 1.5rem;
+    }
 
-  .footer-details a {
-    font-size: 1.2rem;
+    .footer-details {
+      gap: 2rem;
+    }
+
+    .footer-details a {
+      font-size: 1.2rem;
+    }
   }
 }
 
@@ -211,28 +214,28 @@ export default {
     flex-direction: row;
     text-align: center;
     padding: 0 1.5rem;
-  }
-  .footer-copyright p {
-    font-size: 0.9rem;
-    margin-bottom: 0.5rem;
-  }
 
-  .footer-socials {
-    gap: 1.5rem;
-    margin-bottom: 0.5rem;
-  }
+    .footer-copyright p {
+      font-size: 0.9rem;
+      margin-bottom: 0.5rem;
+    }
 
-  .footer-socials .social-icon {
-    font-size: 1.3rem;
-  }
+    .footer-socials {
+      gap: 1.5rem;
+      margin-bottom: 0.5rem;
+    }
 
-  .footer-details {
-    flex-direction: column;
-    gap: 1rem;
-  }
+    .footer-socials .social-icon {
+      font-size: 1.3rem;
+    }
 
-  .footer-details a {
-    font-size: 0.9rem;
+    .footer-details {
+      gap: 1rem;
+    }
+
+    .footer-details a {
+      font-size: 0.9rem;
+    }
   }
 }
 
@@ -242,29 +245,28 @@ export default {
     flex-direction: column;
     text-align: center;
     padding: 0.5rem;
-  }
 
-  .footer-copyright p {
-    font-size: 0.8rem;
-    margin-bottom: 0.5rem;
-  }
+    .footer-copyright p {
+      font-size: 0.8rem;
+      margin-bottom: 0.5rem;
+    }
 
-  .footer-socials {
-    gap: 1rem;
-    margin-bottom: 0.5rem;
-  }
+    .footer-socials {
+      gap: 1rem;
+      margin-bottom: 0.5rem;
+    }
 
-  .footer-socials .social-icon {
-    font-size: 1.2rem;
-  }
+    .footer-socials .social-icon {
+      font-size: 1.2rem;
+    }
 
-  .footer-details {
-    flex-direction: column;
-    gap: 0.5rem;
-  }
+    .footer-details {
+      gap: 0.5rem;
+    }
 
-  .footer-details a {
-    font-size: 0.8rem;
+    .footer-details a {
+      font-size: 0.8rem;
+    }
   }
 }
 </style>

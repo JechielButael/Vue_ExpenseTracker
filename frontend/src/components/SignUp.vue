@@ -118,7 +118,11 @@ export default {
   margin: 1rem;
 
   @media screen and (min-width: 2000px) {
-    font-size: 6rem;
+    font-size: 5rem;
+  }
+
+  @media screen and (max-width: 769px) {
+    font-size: 2rem;
   }
 }
 

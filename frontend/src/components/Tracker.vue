@@ -438,10 +438,6 @@ body {
   }
 }
 
-body {
-  background: #eee;
-}
-
 @media (min-width: 2000px) {
   .profile {
     margin: 5rem 5rem;

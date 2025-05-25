@@ -11,6 +11,12 @@ body {
   width: 100vw;
   height: 100vh;
   overflow-x: hidden;
+  background: linear-gradient(
+    75deg,
+    rgb(20, 23, 33) 0%,
+    rgb(20, 23, 33) 50%,
+    rgba(20, 23, 33, 0.8) 100%
+  );
 }
 
 .background {
@@ -20,12 +26,6 @@ body {
   width: 100vw;
   position: relative;
   height: 100vh;
-  background: linear-gradient(
-    75deg,
-    rgb(20, 23, 33) 0%,
-    rgb(20, 23, 33) 50%,
-    rgba(20, 23, 33, 0.8) 100%
-  );
 }
 
 body {
@@ -140,7 +140,7 @@ body {
     max-width: 100%;
   }
   .form-signin-title {
-    font-size: 48px;
+    font-size: 2rem;
   }
   .form-card {
     width: 40%;
@@ -149,24 +149,24 @@ body {
     font-size: 1.2rem;
   }
   .form-subtitle {
-    font-size: 3rem;
+    font-size: 2.5rem;
   }
   .auth-img img {
-    max-width: 100%;
+    max-width: 70%;
   }
 
   .auth-input {
     border-radius: 1rem;
-    padding: 3rem 2rem 1rem 1rem;
+    padding: 2rem 1.5rem 1rem 1rem;
 
     margin-bottom: 1.2rem;
   }
   .auth-button {
-    font-size: 1.5rem;
-    height: 5rem;
+    font-size: 1.2rem;
+    height: 4rem;
   }
   .form-sign button {
-    font-size: 3rem;
+    font-size: 2.5rem;
     margin-left: 0.5rem;
   }
 }
@@ -179,10 +179,10 @@ body {
     font-size: 40px;
   }
   .form-card {
-    width: 45%;
+    width: 30%;
   }
   .auth-img {
-    width: 40%;
+    width: 50%;
   }
 }
 
@@ -207,7 +207,7 @@ body {
     width: 100%;
   }
   .form-card {
-    width: 60%;
+    width: 45%;
   }
   .auth-img {
     width: 40%;
@@ -216,8 +216,28 @@ body {
   .auth-img img {
     max-width: 100%;
   }
-  .form-signin-title {
-    font-size: 32px;
+  .auth-label {
+    font-size: 0.5rem;
+  }
+  .form-subtitle {
+    font-size: 1rem;
+  }
+  .auth-label {
+    left: 5px;
+  }
+
+  .auth-input {
+    padding: 1.2rem 1.2rem 0.5rem 0.5rem;
+
+    margin-bottom: 0.8rem;
+  }
+  .auth-button {
+    font-size: 0.7rem;
+    height: 2.5rem;
+  }
+  .form-sign button {
+    font-size: 1rem;
+    margin-left: 0.2rem;
   }
 }
 
